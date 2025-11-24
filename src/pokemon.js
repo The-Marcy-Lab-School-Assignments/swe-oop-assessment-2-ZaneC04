@@ -15,10 +15,6 @@ class Pokemon {
     return this.#health;
   }
 
-  set health(health) {
-    this.#health = health;
-  }
-
   get level() {
     return this.#level;
   }
@@ -34,7 +30,7 @@ class Pokemon {
   }
 
   attack(targetPokemon) {
-    targetPokemon.health -= 10 * this.#level;
+    targetPokemon.#health -= 10 * this.#level;
     console.log(`${this.name} attacked ${targetPokemon.name}!`);
   }
 
