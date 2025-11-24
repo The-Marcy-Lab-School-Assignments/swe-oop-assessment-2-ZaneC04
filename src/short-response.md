@@ -73,7 +73,7 @@ The `this` keyword directly refers to the object that `this` is invoking the met
 In your own words, explain what **polymorphism** means in OOP. Provide an example in code that demonstrates polymorphism.
 
 ## Response 3
-Polymorphism is a foundation in OOP that refers to the same method name having different implementation across classes or objects. This is beneficial as it allows programmers to reuse functionality that was previously declared, but modify it to fit better with separate parts in a program. An example of this is below:
+**Polymorphism** is a foundation in OOP that refers to the **same method name having different implementation across classes** or objects. This is beneficial as it allows programmers to reuse functionality that was previously declared, but modify it to fit better with separate parts in a program. An example of this is below:
 
 ```js
 class Dog {
@@ -108,7 +108,7 @@ You're building a game where players can raise different digital pets: Cats, Dog
 **Part B:** Explain one advantage of using inheritance here instead of creating three completely separate classes.
 
 ## Response 4
-I would use inheritance in this example by using the `extends` keyword to make Cats, Dogs and Birds all subclasses of a `Pet` superclass as shown below. 
+I would use **inheritance** in this example by using the `extends` keyword to make Cats, Dogs and Birds all subclasses of a `Pet` superclass as shown below. 
  ```js
  class Pet {
     energy = 0
